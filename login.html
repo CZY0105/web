@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录 - 旅游网站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>旅游网站</h1>
+        <nav>
+            <a href="index.html">首页</a>
+            <a href="flights.html">机票</a>
+            <a href="hotels.html">酒店</a>
+            <a href="login.html">登录</a>
+            <div class="dropdown">
+                <a href="profile.html">个人信息</a>
+                <div class="dropdown-content">
+                    <a href="profile.html">个人信息</a>
+                    <a href="#">订单历史</a>
+                    <a href="login.html">退出</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h2>登录</h2>
+        <form id="loginForm">
+            <label for="username">用户名:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">密码:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">登录</button>
+        </form>
+        <p id="loginMessage"></p>
+    </main>
+    <footer>
+        &copy; 2023 旅游网站. All rights reserved.
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

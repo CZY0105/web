@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旅游网站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>旅游网站</h1>
+            <div class="menu-items">
+                <a href="index.html">首页</a>
+                <a href="flights.html">机票</a>
+                <a href="hotels.html">酒店</a>
+                <a href="login.html">登录</a>
+                <div class="dropdown">
+                    <a href="profile.html">个人信息</a>
+                    <div class="dropdown-content">
+                        <a href="profile.html">个人信息</a>
+                        <a href="#">订单历史</a>
+                        <a href="login.html">退出</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>探索世界,从这里开始</h2>
+        <form class="search-form">
+            <input type="text" placeholder="请输入目的地">
+            <button type="submit">搜索</button>
+        </form>
+    </section>
+    <section class="map-section">
+        <h2>目的地地图</h2>
+        <img src="./地图.png" alt="Static Map">
+    </section>
+    <section class="destinations">
+        <h2>热门目的地</h2>
+        <div class="destination-grid">
+            <div class="destination-card">
+                <img src="./北京.jpg" alt="北京">
+                <h3>北京</h3>
+            </div>
+            <div class="destination-card">
+                <img src="./上海.jpg" alt="上海">
+                <h3>上海</h3>
+            </div>
+            <div class="destination-card">
+                <img src="./广州.jpg" alt="广州">
+                <h3>广州</h3>
+            </div>
+            <div class="destination-card">
+                <img src="./深圳.jpg" alt="深圳">
+                <h3>深圳</h3>
+            </div>
+            <div class="destination-card">
+                <img src="./南京.jpg" alt="南京">
+                <h3>南京</h3>
+            </div>
+            <div class="destination-card">
+                <img src="./杭州.jpg" alt="杭州">
+                <h3>杭州</h3>
+            </div>
+            <div class="destination-card">
+                <img src="./西安.jpg" alt="西安">
+                <h3>西安</h3>
+            </div>
+            <div class="destination-card">
+                <img src="./嘉兴.jpg" alt="嘉兴">
+                <h3>嘉兴</h3>
+            </div>
+        </div>
+    </section>
+    <footer>
+        &copy; 2023 旅游网站. All rights reserved.
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
